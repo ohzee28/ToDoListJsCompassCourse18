@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Javascipt ToDoList</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/backEndLogic.js"></script>
+</head>
+<body>
+<!-- ToDoList Functionality-->
+<div class="container todolistFunctions">
+    <p class="display-1"> Click to Add...</p>
+    <button onclick="addTodo()" class="btn btn-outline-danger btn lg">+</button>
+</div>
+<!-- ToDoList Body-->
+<div class="searchBox">
+    <input class="form-control form-control-lg todoInputField" type="text" placeholder="Lets Do it ☠️">
+</div>
+
+<div class="listingTodos">
+    <!--ul= Unordered List -->
+    <ul class="todoList">
+        <!--    where the Todos will appear in the future-->
+
+    </ul>
+</div>
+
+</body>
+</html>
